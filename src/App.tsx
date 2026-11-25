@@ -1,11 +1,19 @@
 import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
 
 function App() {
+  const name = "Ryo Masago"
+
   return (
-    <main>
-      <h1>My Developer Portfolio</h1>
-      <p>From recruitment to software development.</p>
-    </main>
+    <div className = "app">
+      <Header name = {name}/>
+      <main className = "main-content">
+        <Home/>
+      </main>
+      <Footer name = {name}/>
+    </div>
   );
 }
 
