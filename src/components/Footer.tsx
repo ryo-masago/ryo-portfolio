@@ -7,7 +7,11 @@ function Footer(props: FooterProps) {
 
   return (
     <footer className = "portfolio-footer">
-      <p>&copy; {currentYear} {props.name}. All Rights Reserved.</p>
+      <div className = "footer-content">
+        <span className = "footer-logo">{"</>"}</span>
+        <span className = "footer-slogan">Learning and Building</span>
+        <p>&copy; {currentYear} {props.name}. All Rights Reserved.</p>
+      </div>
     </footer>
   );
 }

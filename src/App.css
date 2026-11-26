@@ -10,15 +10,23 @@
   align-items: center;
   gap: 24px;
   background-color: #ffffff;
-  border-bottom: 1px solid #e4e4e7;
+  border-bottom: 1px solid #e0e3ef;
   padding: 20px 40px;
+  box-shadow: 0 4px 12px rgba(16, 25, 56, 0.04);
 }
 
-.portfolio-name {
+.portfolio-content {
+  font-family: 'Courier New', Courier, monospace;
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
-  color: #18181b;
+  color: #101938;
+}
+
+.portfolio-logo {
+  font-family: 'Trebuchet MS';
+  color: #2563eb;
+  margin-right: 14px;
 }
 
 .navbar-options {
@@ -51,15 +59,36 @@
 .main-content {
   flex: 1;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 60px 40px;
 }
 
 .portfolio-footer {
-  border-top: 1px solid #e4e4e7;
-  padding: 20px;
+  background: linear-gradient(
+    135deg,
+    #192133,
+    #373580,
+    #30375d
+    );
+
+  color: #ffffff;
   text-align: center;
-  color: #71717a;
   font-size: 14px;
+  padding: 20px;
+}
+
+.footer-logo {
+  font-family: 'Trebuchet MS';
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.footer-slogan {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+.footer-content p {
+  color: #cbd5e1;
 }

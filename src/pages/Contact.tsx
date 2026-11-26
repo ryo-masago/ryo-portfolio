@@ -1,8 +1,10 @@
 function Contact() {
   return (
     <section className = "contact">
-      <h1>Contact Me</h1>
-      <p>Please get in touch!</p>
+      <div className = "page-heading">
+        <h1>Contact Me</h1>
+        <p>Please get in touch!</p>
+      </div>
     </section>
   );
 }
