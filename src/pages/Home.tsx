@@ -2,6 +2,8 @@ import {Link} from "react-router-dom";
 import "./Home.css";
 import homeImage from "../assets/home-image.png";
 import projectData from "../data/projects.json";
+import ProjectCard from "../components/ProjectCard";
+import {Project} from "../project";
 
 function Home() {
   return (
