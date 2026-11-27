@@ -1,23 +1,29 @@
 import {Link} from "react-router-dom";
+import "./Home.css";
+import homeImage from "../assets/home-image.png";
 
 function Home() {
   return (
-    <section className = "home">
-      <div className = "page-heading">
-        <h1>My Developer Portfolio</h1>
-        <p>From recruitment to software development.</p>
-      </div>
-      <div>
-        <Link to = "/projects" className = "primary-btn">View My Projects →</Link>
-        <Link to = "/about" className = "secondary-btn">About Me</Link>
-      </div>
-      <div className = "container">
-        <div className = "card">
-          <h2>Dishback</h2>
-          <p>A personal meal tracking application.</p>
+    <div className = "home">
+      <section className = "home-hero">
+        <div className = "home-hero-content">
+          <div className = "page-heading">
+            <h1>Hi, I'm <span className = "home-name">Ryo</span>!</h1>
+            <p>
+              I'm a software development graduate student at Boston University Metropolitan College
+              with a background in IT and SaaS recruitment.
+            </p>
+          </div>
+          <div className = "home-actions">
+            <Link to = "/projects" className = "primary-btn">View My Projects →</Link>
+            <Link to = "/about" className = "secondary-btn">About Me</Link>
+          </div>
         </div>
-      </div>
-    </section>
+        <div className = "home-image">
+          <img className = "home-code-editor" src = {homeImage} alt = "Code Editor"/>
+        </div>
+      </section>
+    </div>
   );
 }
 

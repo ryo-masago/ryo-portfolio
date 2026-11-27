@@ -1,0 +1,38 @@
+.home-hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  min-height: 300px;
+  padding: 10px 0;
+}
+
+.home-hero-content {
+  flex: 1 1 340px;
+  min-width: 0;
+}
+
+.home-image {
+  display: flex;
+  flex: 1 1 340px;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+}
+
+.home-code-editor {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  display: block;
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.home-name {
+  color: #2563eb;
+}
