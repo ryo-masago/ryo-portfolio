@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Notebook Metropolis",
+    "description": "",
+    "technologies": ["Ruby on Rails, JavaScript, HTML, CSS"],
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Dishback",
+    "description": "A personal food log to keep track of dishes and serving history.",
+    "technologies": ["React, TypeScript, HTML, CSS"],
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "CS601 Newsletter Form",
+    "description": "An interactive web form with client-side validation.",
+    "technologies": ["JavaScript, HTML, CSS"],
+    "featured": true
+  }
+]
